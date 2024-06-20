@@ -70,3 +70,8 @@ footer > p {
   button[type="submit"]:hover {
     background-color: #45a049;
   }
+
+  .img-fluid {
+    width: auto !important;
+    height: auto !important;
+  }
