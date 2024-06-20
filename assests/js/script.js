@@ -8,3 +8,5 @@ $('#imageModal').on('show.bs.modal', function (event) {
     modal.find('.modal-body img').attr('src', src);
     modal.find('#imageModalText').text(text);
   });
+
+  
