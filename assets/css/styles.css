@@ -76,4 +76,19 @@ footer > p {
     height: auto !important;
   }
 
-  
+  .nav-link {
+    border: 1px solid transparent !important; 
+  }
+  .nav-link:hover {
+    color: black !important;
+    background-color: white !important;
+    border: 1px solid rgba(0, 0, 0, 0) !important; 
+    border-radius: 5px;
+
+  }
+  .nav-link.active {
+    color: black !important; 
+    background-color: white !important; 
+    border: 1px solid rgb(0, 0, 0) !important; 
+    border-radius: 5px;
+  }
