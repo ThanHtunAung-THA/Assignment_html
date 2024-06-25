@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>I'm Than Htun Aung</title>
+  <title>Welcome to M2Y2</title>
   <link rel="icon" href="../assets/img/favicon/favicon.ico" type="image/x-icon">
-  <link href="../assets/bootstrapV4.5.2/stackpath.bootstrapcdn.com_bootstrap_4.5.2_css_bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/styles.css">
   <style>
     nav > div > ul > li > a {
@@ -14,25 +13,24 @@
   </style>
 </head>
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-      <a class="navbar-brand" href="about.html"><img src="../assets/img/my icon.png" alt="" style="width: 50px; height: 50px; border-radius: 50%;"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ">
-          <li class="nav-item"><a class="nav-link " href="home.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link " href="projects.html">Projects</a></li>
-          <li class="nav-item"><a class="nav-link " href="services.html">Services</a></li>
-          <li class="nav-item"><a class="nav-link " href="suggestion.html">Suggestion Box</a></li>
-          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
-          <li class="nav-item"><a class="nav-link " href="about.html">About</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <a class="navbar-brand" href="about.html"><img src="../assets/img/my icon.png" alt="" style="width: 50px; height: 50px; border-radius: 50%;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ">
+        <li class="nav-item"><a class="nav-link " href="home.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link " href="projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link " href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link " href="about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
 
+  <!-- Content -->
   <section id="contact" class="container wrapper">
     <div class="container">
       <div class="card mb-2">
@@ -41,17 +39,16 @@
           <form action="#" method="POST">
             <div class="form-group">
               <label for="name">Name</label>
-              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+              <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
             </div>
             <div class="form-group">
               <label for="email">Email address</label>
-              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+              <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
             </div>
             <div class="form-group">
               <label for="message">Message</label>
-              <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+              <textarea class="form-control" id="message" rows="3" placeholder="Enter your message" required></textarea>
             </div>
-            
             <button type="submit">Submit</button>
           </form>   
         </div>
@@ -59,10 +56,17 @@
     </div>
   </section>
   
-
+  <!-- Footer -->
   <footer class="text-center ">
-    <p> [ Phone  ::  09798174380, 09974847753 ][ Email  ::  t.thantunaung@gmail.com ] </p>
+    <p> 
+      <span class="fas fa-phone "> </span> Phone : +959 798174380, +959 974847753 | &nbsp;
+      <span class="fab fa-viber "> </span> Viber :  +959 798174380 | &nbsp;
+      <span class="fab fa-telegram"> </span> Telegram :  +959 798174380 or @ThanHtunAung_12_097233 | &nbsp;
+      <span class="fab fa-whatsapp"> </span> Whatsapp :  +959 974847753
+    </p>
   </footer>
+  
+  <!-- Bootstrap JS and jQuery -->
   <script src="../assets/bootstrapV4.5.2/code.jquery.com_jquery-3.5.1.slim.min.js"></script>  
   <script src="../assets/bootstrapV4.5.2/cdn.jsdelivr.net_npm_@popperjs_core@2.5.4_dist_umd_popper.min.js"></script>
   <script src="../assets/bootstrapV4.5.2/stackpath.bootstrapcdn.com_bootstrap_4.5.2_js_bootstrap.min.js"></script>

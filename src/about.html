@@ -3,20 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>I'm Than Htun Aung</title>
+  <title>Welcome to M2Y2</title>
   <link rel="icon" href="../assets/img/favicon/favicon.ico" type="image/x-icon">
-  <link href="../assets/bootstrapV4.5.2/stackpath.bootstrapcdn.com_bootstrap_4.5.2_css_bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/styles.css">
   <style>
     nav > div > ul > li > a {
       color: white !important;
     }
+    .custom-bullet {
+      font-size: 1.5em; /* Adjust this value to match <li> bullet size */
+      line-height: 1;     /* Ensure the bullet is vertically centered */
+      position: relative;
+      top: 0.1em;         /* Adjust to vertically align with <li> bullet */
+      margin: 0 0.2em;    /* Adjust space around the bullet */
+    }
   </style>
 </head>
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-      <a class="navbar-brand" href="about.html"><img src="../assets/img/my icon.png" alt="" style="width: 50px; height: 50px; border-radius: 50%;"></a>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <a class="navbar-brand" href="about.html"><img src="../assets/img/my icon.png" alt="" style="width: 50px; height: 50px; border-radius: 50%;"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -25,13 +31,11 @@
           <li class="nav-item"><a class="nav-link " href="home.html">Home</a></li>
           <li class="nav-item"><a class="nav-link " href="projects.html">Projects</a></li>
           <li class="nav-item"><a class="nav-link " href="services.html">Services</a></li>
-          <li class="nav-item"><a class="nav-link " href="suggestion.html">Suggestion Box</a></li>
           <li class="nav-item"><a class="nav-link " href="contact.html">Contact</a></li>
           <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
         </ul>
       </div>
     </nav>
-  </header>
 
   <section id="about" class="container wrapper">
     <div class="container">
@@ -43,36 +47,30 @@
           <p>As a web developer, I thrive on solving complex problems and continuously learning new technologies. My journey started with a fascination for the web and has grown into a full-fledged career where I enjoy every aspect of development, from front-end design to back-end logic. I'm also exploring the realms of AI and game development, integrating these technologies into web applications to create more engaging user experiences.</p>
           
           <div class="row">
-            <div class="col-md-4">
+            <div class="">
               <h3>Skills</h3>
               <ul>
-                <li>HTML</li>
-                <li>CSS, Bootstrap</li>
-                <li>JavaScript</li>
-                <li>PHP, Laravel</li>
-                <li>SQL, MySQL</li>
-                <li>Python, Django (in progress)</li>
-                <li>React.js (in progress)</li>
-                <li>Vue.js (in progress)</li>
-                <li>Unreal Engine with C++</li>
-                <li>Unity Engine with C#</li>
+                <li>HTML, CSS, JavaScript, Bootstrap, jquery <span class="custom-bullet">&#8226;</span> PHP, MySQL, Frameworks(Codeignitor, Laravel)</li>
+                <li>Python, Django (in progress) <span class="custom-bullet">&#8226;</span> React.js (in progress) <span class="custom-bullet">&#8226;</span> Vue.js (in progress)</li>
+                <li>Unreal Engine with C++ <span class="custom-bullet">&#8226;</span> Unity Engine with C# <span class="custom-bullet">&#8226;</span> Git for version control</li>
               </ul>
             </div>
-            <div class="col-md-4">
+            <div class="">
               <h3>Experience</h3>
               <p>Over the past few years, I have worked on a range of projects that span different industries and applications. Here are some highlights:</p>
               <ul>
-                <li><strong>Web Developer Intern at XYZ Corp:</strong> Developed responsive websites using HTML, CSS, and JavaScript. Worked on a team project to create an e-commerce platform.</li>
-                <li><strong>Freelance Web Developer:</strong> Completed various freelance projects including portfolio websites, business websites, and small web applications. Gained extensive experience in client communication and project management.</li>
-                <li><strong>Game Developer at ABC Studios:</strong> Worked with a team to develop a 3D adventure game using Unreal Engine and C++. Focused on game mechanics and user interface design.</li>
+                <li><strong>Web Developer at Meglio Futuro Co.,Ltd :</strong> Developed responsive websites using React.js, PHP(codeignitor). Worked on a team project to modify Home-Hostel renting system for Japan and maintaining Fire insurance static website. <br>modifying for School Management System (SMS) or Student Information System (SIS) that is currently using for over 200 High Schools in Japan.</li>
+                <li><strong>Web Developer at Neromathitis Co.,Ltd :</strong> Developed responsive websites using HTML, CSS, JavaScript and PHP. Worked on a team project to create an point of sale platform, Ubiflo-online shopping, e-commerce platform and Myanmar web toon.</li>
+                <li><strong>Freelance Web Developer :</strong> Completed various freelance projects including portfolio websites, business websites, and small web applications. <br> Gained extensive experience in client communication and project management.</li>
+                <li><strong>Game Development is my personal development as a hobby:</strong> Crafted some 3D crazy-adventure window.os-game using Unreal Engine with C++ and <br> 2D puzzle-style mobile game using Unity Engine with C#</li>
               </ul>
             </div>
-            <div class="col-md-4">
+            <div class="">
               <h3>Education</h3>
-              <p>My educational background has provided me with a strong foundation in computer science and web development:</p>
+              <p>My educational background has provided me with a strong foundation in software development and web development :</p>
               <ul>
-                <li><strong>Bachelor of Science in Computer Science:</strong> University of Yangon, 2020. Coursework included data structures, algorithms, web development, and software engineering.</li>
-                <li><strong>Online Courses and Certifications:</strong> Completed various online courses in web development, game development, and AI from platforms like Coursera, Udemy, and edX.</li>
+                <li><strong>Bachelor of Engineering in Information Technology :</strong> ThanLyin Technological University, 2013. Coursework included data structures, algorithms, web development, and software engineering.</li>
+                <li><strong>Online Courses and Certifications :</strong> Completed various online courses in web development, game development, and AI from platforms like Coursera, Udemy, and edX.</li>
               </ul>
             </div>
           </div>
@@ -81,10 +79,17 @@
     </div>
   </section>
   
-
+  <!-- Footer -->
   <footer class="text-center ">
-    <p>[ Phone  ::  09798174380, 09974847753 ][ Email  ::  t.thantunaung@gmail.com ]</p>
+    <p> 
+      <span class="fas fa-phone "> </span> Phone : +959 798174380, +959 974847753 | &nbsp;
+      <span class="fab fa-viber "> </span> Viber :  +959 798174380 | &nbsp;
+      <span class="fab fa-telegram"> </span> Telegram :  +959 798174380 or @ThanHtunAung_12_097233 | &nbsp;
+      <span class="fab fa-whatsapp"> </span> Whatsapp :  +959 974847753
+    </p>
   </footer>
+
+  <!-- Bootstrap JS and jQuery -->
   <script src="../assets/bootstrapV4.5.2/code.jquery.com_jquery-3.5.1.slim.min.js"></script>  
   <script src="../assets/bootstrapV4.5.2/cdn.jsdelivr.net_npm_@popperjs_core@2.5.4_dist_umd_popper.min.js"></script>
   <script src="../assets/bootstrapV4.5.2/stackpath.bootstrapcdn.com_bootstrap_4.5.2_js_bootstrap.min.js"></script>
