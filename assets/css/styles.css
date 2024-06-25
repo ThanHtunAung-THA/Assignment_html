@@ -108,3 +108,21 @@ footer > p {
     line-height: 1.8;
   }
 
+    /* Up Arrow Button */
+  #topBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: #007bff;
+    font-size: 3em;
+  }
+  #topBtn:hover {
+    background-color: transparent;
+    color: #0153ab;
+  }
